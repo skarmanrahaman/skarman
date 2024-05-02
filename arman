@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study with Aru</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .section-header {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section-header h2 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Themes and Colors */
+        .chemistry {
+            background-color: #ffe5b4;
+            color: #333;
+        }
+
+        .physics {
+            background-color: #c2f0fc;
+            color: #333;
+        }
+
+        .biology {
+            background-color: #d6ffb7;
+            color: #333;
+        }
+
+        .math {
+            background-color: #fcd5ce;
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Study with Aru</h1>
+        <p>Unlock the secrets of Chemistry, Physics, Biology, and Math!</p>
+    </header>
+
+    <div class="container">
+
+        <section id="chemistry" class="subject chemistry fade-in">
+            <div class="section-header">
+                <h2><a href="#atoms">Atoms, Molecules, and Chemical Reactions</a></h2>
+            </div>
+            <p>Welcome to the world of Chemistry! In this section, we'll cover topics such as:
+                <ul>
+                    <li><a href="#acids">Acids, Bases, and Salts</a></li>
+                    <li><a href="#metals">Metals and Non-metals</a></li>
+                    <li><a href="#carbon">Carbon and its Compounds</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="physics" class="subject physics fade-in">
+            <div class="section-header">
+                <h2><a href="#motion">Motion and Laws of Motion</a></h2>
+            </div>
+            <p>Dive into the fascinating realm of Physics! Explore topics such as:
+                <ul>
+                    <li><a href="#gravitation">Gravitation</a></li>
+                    <li><a href="#energy">Work, Energy, and Power</a></li>
+                    <li><a href="#light">Light - Reflection and Refraction</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="biology" class="subject biology fade-in">
+            <div class="section-header">
+                <h2><a href="#cell">Cell Structure and Function</a></h2>
+            </div>
+            <p>Discover the wonders of Biology! Learn about:
+                <ul>
+                    <li><a href="#reproduction">Reproduction</a></li>
+                    <li><a href="#heredity">Heredity and Evolution</a></li>
+                    <li><a href="#environment">Environment: Ecosystem, Biodiversity, and Conservation</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="math" class="subject math fade-in">
+            <div class="section-header">
+                <h2><a href="#real">Real Numbers and Polynomials</a></h2>
+            </div>
+            <p>Master the language of numbers with Mathematics! Topics include:
+                <ul>
+                    <li><a href="#linear">Linear Equations and Quadratic Equations</a></li>
+                    <li><a href="#geometry">Triangles, Circles, and Constructions</a></li>
+                    <li><a href="#probability">Probability and Statistics</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <!-- Detailed Explanation Sections -->
+
+        <section id="atoms" class="chapter chemistry">
+            <h2>Atoms, Molecules, and Chemical Reactions</h2>
+            <p>Detailed explanation for Atoms, Molecules, and Chemical Reactions goes here...</p>
+        </section>
+
+        <section id="acids" class="chapter chemistry">
+            <h2>Acids, Bases, and Salts</h2>
+            <p>Detailed explanation for Acids, Bases, and Salts goes here...</p>
+        </section>
+
+        <section id="metals" class="chapter chemistry">
+            <h2>Metals and Non-metals</h2>
+            <p>Detailed explanation for Metals and Non-metals goes here...</p>
+        </section>
+
+        <section id="carbon" class="chapter chemistry">
+            <h2>Carbon and its Compounds</h2>
+            <p>Detailed explanation for Carbon and its Compounds goes here...</p>
+        </section>
+
+        <section id="motion" class="chapter physics">
+            <h2>Motion and Laws of Motion</h2>
+            <p>Detailed explanation for Motion and Laws of Motion goes here...</p>
+        </section>
+
+        <section id="gravitation" class="chapter physics">
+            <h2>Gravitation</h2>
+            <p>Detailed explanation for Gravitation goes here...</p>
+        </section>
+
+        <section id="energy" class="chapter physics">
+            <h2>Work, Energy, and Power</h2>
+            <p>Detailed explanation for Work, Energy, and Power goes here...</p>
+        </section>
+
+        <section id="light" class="chapter physics">
+            <h2>Light - Reflection and Refraction</h2>
+            <p>Detailed explanation for Light - Reflection and Refraction goes here...</p>
+        </section>
+
+        <section id="cell" class="chapter biology">
+            <h2>Cell Structure and Function</h2>
+            <p>Detailed explanation for Cell Structure and Function goes here...</p>
+        </section>
+
+        <section id="reproduction" class="chapter biology">
+            <h2>Reproduction</h2>
+            <p>Detailed explanation for Reproduction goes here...</p>
+        </section>
+
+        <section id="heredity" class="chapter biology">
+            <h2>Heredity and Evolution</h2>
+            <p>Detailed explanation for Heredity and Evolution goes here...</p>
+        </section>
+
+        <section id="environment" class="chapter biology">
+            <h2>Environment: Ecosystem, Biodiversity, and Conservation</h2>
+            <p>Detailed explanation for Environment: Ecosystem, Biodiversity, and Conservation goes here...</p>
+        </section>
+
+        <section id="real" class="chapter math">
+            <h2>Real Numbers and Polynomials</h2>
+            <p>Detailed explanation for Real Numbers and Polynomials goes here...</p>
+        </section>
+
+        <section id="linear" class="chapter math">
+            <h2>Linear Equations and Quadratic Equations</h2>
+            <p>Detailed explanation for Linear Equations and Quadratic Equations goes here...</p>
+        </section>
+
+        <section id="geometry" class="chapter math">
+            <h2>Triangles, Circles, and Constructions</h2>
+            <p>Detailed explanation for Triangles, Circles, and Constructions goes here...</p>
+        </section>
+
+        <section id="probability" class="chapter math">
+            <h2>Probability and Statistics</h2>
+            <p>Detailed explanation for Probability and Statistics goes here...</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Study with Aru. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
